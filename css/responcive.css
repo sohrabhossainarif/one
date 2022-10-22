@@ -1,0 +1,1133 @@
+@media (max-width:350.98px){
+  .navbar-brand img{
+    width: 70%;
+  }
+  .navbar-toggler{
+    border: 1px solid #f9004d !important;
+  }
+.navbar-toggler i{
+  color: #fff;
+  font-size: 24px;
+}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 transparent;
+}
+.menu_bar ul{
+  text-align: center;
+}
+.menu_bar ul li a {
+	margin: 5px 10px;
+}
+/* ===nav end === */
+/* ===banner start === */
+.banner {
+	background: url(../images/testimonial.jpeg) no-repeat center / cover;
+	padding: 100px 0px;
+}
+.banner_text h2 {
+	font-size: 20px;
+}
+.banner_text h1 {
+	font-size: 40px;
+}
+.banner_text p {
+	font-size: 25px;
+}
+.banner_text .text_text {
+	font-size: 14px;
+}
+.btn-primary {
+	font-size: 15px;
+	margin-top: 20px;
+}
+.btn-primary:hover{
+	transform: scale(1.0);
+}
+/* ===modal hire me === */
+.modal-header .btn-close {
+	top: 11px;
+	right: 11px;
+	font-size: 15px;
+}
+.modal-header .btn-close:hover{
+	border-radius: 7px;
+	font-size: 15px;
+}
+.modal-header h2 {
+	font-size: 16px;
+}
+.input_box span {
+	font-size: 13px;
+}
+.modal_btn {
+	font-size: 14px;
+}
+/* ===banner end === */
+/* ===about start  === */
+.about_img{
+  text-align: center;
+}
+.about_text {
+	margin-top: 24px;
+}
+.about_text h2 {
+	font-size: 30px;
+	margin-bottom: 16px;
+}
+.about_text p {
+	font-size: 18px;
+}
+.about_text span {
+	font-size: 13px;
+}
+/* ===modal learn more === */
+.btn-info {
+	margin:30px 0;
+	padding: 4px 12px;
+	font-size: 16px;
+	display: block;
+}
+.btn-info:hover{
+	padding: 4px 20px;
+}
+.modal_main {
+	width: 331px;
+}
+.informiton p span, .informiton p a {
+	font-size: 15px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===about end  === */
+/* ===portfolio start === */
+.portfolio {
+	padding: 35px 0px;
+}
+.blog_head h2 {
+	font-size: 36px;
+}
+.mix_btn {
+	margin-top: -90px;
+}
+.mix_btn button {
+	font-size: 14px;
+}
+.mix_main {
+	margin-top: -35px;
+}
+.mixt_item {
+	width: 100%;
+}
+.vbox-close-icon {
+	top: 31px;
+	right: 15px;
+}
+/* ===portfolio end === */
+/* ===service start === */
+.my_services h2 {
+	font-size: 30px;
+}
+.my_services p {
+	font-size: 14px;
+}
+.svg_img {
+	width: 42px;
+	top: 42px;
+	left: -8px;
+}
+.services_right h2 {
+	font-size: 20px;
+}
+.services_right h4 {
+	font-size: 17px;
+}
+.services_right h4 span {
+	font-size: 26px;
+}
+.services_right p {
+	font-size: 13px;
+}
+.knock h2 {
+	font-size: 25px;
+}
+.knock a {
+	padding: 5px 15px;
+	font-size: 17px;
+}
+/* ===service end === */
+/* ===blog start === */
+.blog_text h5 {
+	font-size: 20px;
+}
+.blog_text h2 {
+	font-size: 30px;
+}
+.blog_btn {
+	margin-top: 10px;
+}
+.blog_btn a {
+	padding: 10px 25px;
+	font-size: 14px;
+	margin-top: -30px;
+}
+/* ===blog end === */
+/* ===contact start === */
+.contact_text p {
+	font-size: 17px;
+	width: 300px;
+	margin-top: -55px;
+}
+.contact_text a span {
+	font-size: 15px;
+}
+.contact_text a h2 {
+	font-size: 16px;
+}
+.contact_text a i {
+	font-size: 20px;
+	top: 12px;
+	left: -29px;
+}
+.contact_img img {
+	height: 58%;
+}
+.contact_box{
+	margin-top: -95px;
+}
+form button {
+	font-size: 16px;
+}
+/* ===contact end === */
+/* ===footer start=== */
+.footer_item p {
+	font-size: 18px;
+}
+.footer_item  h3{
+	font-size: 18px;
+}
+/* ===footer end=== */
+/* ===backtop start== */
+.backtop i {
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	font-size: 16px;
+}
+/* ===backtop end  == */
+
+}
+/* ============================max-350 end======================================= */
+@media(min-width:351px) and (max-width:575.98px){
+
+	.navbar-brand img {
+		width: 85%;
+	}
+  .navbar-toggler{
+    border: 1px solid #f9004d !important;
+  }
+	.navbar-toggler i {
+		color: #fff;
+		font-size: 30px;
+	}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 transparent;
+}
+.menu_bar ul{
+  text-align: center;
+}
+.menu_bar ul li a {
+	margin: 5px 10px;
+	width: 220px;
+}
+/* ===nav end === */
+/* ===banner start === */
+.banner {
+	background: url(../images/testimonial.jpeg) no-repeat center / cover;
+	padding: 300px 0px;
+}
+.banner_text h2 {
+	font-size: 26px;
+}
+.banner_text h1 {
+	font-size: 55px;
+}
+.banner_text p {
+	font-size: 30px;
+}
+.banner_text .text_text {
+	font-size: 22px;
+}
+.btn-primary {
+	font-size: 22px;
+	margin-top: 20px;
+}
+.btn-primary:hover{
+	transform: scale(1.0);
+}
+/* ===modal hire me === */
+.modal-header .btn-close {
+	top: 11px;
+	right: 11px;
+	font-size: 22px;
+}
+.modal-header .btn-close:hover{
+	border-radius: 7px;
+	font-size: 15px;
+}
+.modal-header h2 {
+	font-size: 25px;
+}
+.input_box span {
+	font-size: 18px;
+}
+.modal_btn {
+	font-size: 18px;
+}
+/* ===banner end === */
+/* ===about start  === */
+.about_img{
+  text-align: center;
+}
+.about_img img {
+	width: 52%;
+}
+.about_text {
+	margin-top: 30px;
+}
+.about_text h2 {
+	font-size: 36px;
+	margin-bottom: 16px;
+}
+.about_text p {
+	font-size: 22px;
+}
+.about_text span {
+	font-size: 18px;
+}
+/* ===modal learn more === */
+.btn-info {
+	margin: 35px 0;
+	padding: 10px 25px;
+	font-size: 16px;
+	display:block;
+}
+.btn-info:hover{
+	padding: 10px 35px;
+}
+.modal_main {
+	width: 360px;
+}
+.informiton p span, .informiton p a {
+	font-size: 15px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===about end  === */
+/* ===portfolio start === */
+.portfolio {
+	padding: 18px 0px;
+}
+.blog_head h2 {
+	font-size: 30px;
+}
+.mix_btn {
+	margin-top: -90px;
+}
+.mix_btn button {
+	font-size: 14px;
+}
+.mix_main {
+	margin-top: -35px;
+}
+.mixt_item {
+	width: 100%;
+}
+.vbox-close-icon {
+	top: 31px;
+	right: 15px;
+}
+/* ===portfolio end === */
+/* ===service start === */
+.my_services h2 {
+	font-size: 30px;
+}
+.my_services p {
+	font-size: 14px;
+}
+.svg_img {
+	width: 60px;
+	top: 65px;
+	left: 5px;
+}
+.services_right h2 {
+	font-size: 24px;
+}
+.services_right h4 {
+	font-size: 20px;
+}
+.services_right h4 span {
+	font-size: 26px;
+}
+.services_right p {
+	font-size: 13px;
+}
+.knock h2 {
+	font-size: 35px;
+}
+.knock a {
+	padding: 10px 20px;
+	font-size: 21px;
+}
+/* ===service end === */
+/* ===blog start === */
+.blog_head h2 {
+	font-size: 36px;
+}
+.blog_text h5 {
+	font-size: 22px;
+}
+.blog_text h2 {
+	font-size: 30px;
+}
+.blog_btn {
+	margin-top: 10px;
+}
+.blog_btn a {
+	padding: 10px 25px;
+	font-size: 20px;
+	margin-top: -7px;
+}
+/* ===blog end === */
+/* ===contact start === */
+.contact_text p {
+	font-size: 16px;
+	width: 350px;
+	margin-top: -65px;
+}
+.contact_text a span {
+	font-size: 18px;
+}
+.contact_text a h2 {
+	font-size: 20px;
+}
+.contact_text a i {
+	font-size: 22px;
+	top: 15px;
+	left: -35px;
+}
+.contact_img img {
+	height: 75%;
+}
+.input_group input, textarea {
+	padding: 7px;
+}
+.contact_box {
+	margin-top: -42px;
+}
+form button {
+	font-size: 16px;
+}
+/* ===contact end === */
+/* ===footer start=== */
+.footer_item p {
+	font-size: 18px;
+}
+.footer_item  h3{
+	font-size: 18px;
+}
+/* ===footer end=== */
+/* ===backtop start== */
+.backtop i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+/* ===backtop end  == */
+
+}
+
+/* ============================max- 575 end================================= */
+@media(max-width:767.98px){
+	.navbar-brand img {
+		width: 90%;
+	}
+  .navbar-toggler{
+    border: 1px solid #f9004d !important;
+  }
+	.navbar-toggler i {
+		color: #fff;
+		font-size: 35px;
+	}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 transparent;
+}
+.menu_bar ul{
+  text-align: center;
+}
+.menu_bar ul li a {
+	margin: 5px 10px;
+	width: 220px;
+}
+/* ===nav end === */
+/* ===banner start === */
+.banner {
+	background: url(../images/testimonial.jpeg) no-repeat center / cover;
+	padding: 370px 0px;
+}
+.banner_text h2 {
+	font-size: 32px;
+} 
+.banner_text h1 {
+	font-size: 60px;
+}
+.banner_text p {
+	font-size: 35px;
+}
+.banner_text .text_text {
+	font-size: 22px;
+}
+.btn-primary {
+	font-size: 24px;
+	margin-top: 20px;
+}
+.btn-primary:hover{
+	transform: scale(1.1);
+}
+/* ===modal hire me === */
+.modal-header .btn-close {
+	top: 11px;
+	right: 11px;
+	font-size: 22px;
+}
+.modal-header .btn-close:hover{
+	border-radius: 7px;
+	font-size: 15px;
+}
+.modal-header h2 {
+	font-size: 25px;
+}
+.input_box span {
+	font-size: 20px;
+}
+.modal_btn {
+	font-size: 20px;
+}
+/* ===banner end === */
+/* ===about start  === */
+.about_img{
+  text-align: center;
+}
+.about_img img {
+	width: 52%;
+}
+.about_text {
+	margin-top: 30px;
+}
+.about_text h2 {
+	font-size: 44px;
+	margin-bottom: 16px;
+}
+.about_text p {
+	font-size: 25px;
+}
+.about_text span {
+	font-size: 18px;
+}
+/* ===modal learn more === */
+.btn-info {
+	margin: 35px 0;
+	padding: 10px 25px;
+	font-size: 16px;
+	display:block;
+}
+.btn-info:hover{
+	padding: 10px 35px;
+}
+.modal_main {
+	width: 485px;
+}
+.informiton p span, .informiton p a {
+	font-size: 18px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===about end  === */
+/* ===portfolio start === */
+.portfolio {
+	padding: 18px 0px;
+}
+.blog_head h2 {
+	font-size: 30px;
+}
+.mix_btn {
+	margin-top: -90px;
+}
+.mix_btn button {
+	font-size: 20px;
+}
+.mix_main {
+	margin-top: -35px;
+}
+.mixt_item {
+	width: 48%;
+}
+.mix_text h3 {
+	font-size: 15px;
+}
+.mix_overley a i {
+	top: 38%;
+	font-size: 35px;
+}
+.vbox-close-icon {
+	top: 31px;
+	right: 15px;
+}
+/* ===portfolio end === */
+/* ===service start === */
+.my_services h2 {
+	font-size: 40px;
+}
+.my_services p {
+	font-size: 18px;
+}
+.svg_img {
+	width: 60px;
+	top: 65px;
+	left: 5px;
+}
+.services_right h2 {
+	font-size: 24px;
+}
+.services_right h4 {
+	font-size: 20px;
+}
+.services_right h4 span {
+	font-size: 26px;
+}
+.services_right p {
+	font-size: 13px;
+}
+.knock h2 {
+	font-size: 35px;
+}
+.knock a {
+	padding: 10px 20px;
+	font-size: 21px;
+}
+/* ===service end === */
+/* ===blog start === */
+.blog_head h2 {
+	font-size: 50px;
+}
+.blog_text h5 {
+	font-size: 22px;
+}
+.blog_text h2 {
+	font-size: 30px;
+}
+.blog_btn {
+	margin-top: 10px;
+}
+.blog_btn a {
+	padding: 10px 25px;
+	font-size: 20px;
+	margin-top: -7px;
+}
+/* ===blog end === */
+/* ===contact start === */
+.contact_text p {
+	font-size: 20px;
+	width: 397px;
+	margin-top: -65px;
+}
+.contact_text a span {
+	font-size: 18px;
+}
+.contact_text a h2 {
+	font-size: 22px;
+}
+.contact_text a i {
+	font-size: 22px;
+	top: 15px;
+	left: -35px;
+}
+.contact_img img {
+	height: 75%;
+}
+.input_group input, textarea {
+	padding: 7px;
+}
+.contact_box {
+	margin-top: -42px;
+}
+form button {
+	font-size: 16px;
+}
+/* ===contact end === */
+/* ===footer start=== */
+.footer_item p {
+	font-size: 20px;
+}
+.footer_item h3 {
+	font-size: 25px;
+}
+/* ===footer end=== */
+/* ===backtop start== */
+.backtop i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+/* ===backtop end  == */
+}
+
+
+/* ===========================max 991 end================================= */
+@media(min-width:768px) and (max-width:991.98px){
+	.menu_bar {
+		background-color: #d1d1d1 !important;
+	}
+	.navbar-brand img {
+		width: 100%;
+	}
+  .navbar-toggler{
+    border: 1px solid #000 !important;
+  }
+	.navbar-toggler i {
+		color: #000;
+		font-size: 35px;
+	}
+.navbar-toggler:focus {
+	box-shadow: 0 0 0 transparent;
+}
+.menu_bar ul{
+  text-align: center;
+}
+.menu_bar ul li a {
+	margin: 8px 10px;
+	width: 220px;
+}
+/* ===nav end === */
+/* ===banner start === */
+.banner {
+	background: url(../images/banner_3.png) no-repeat center / cover;
+	padding: 370px 0px;
+}
+.banner_text h2 {
+	font-size: 32px;
+} 
+.banner_text h1 {
+	font-size: 60px;
+}
+.banner_text p {
+	font-size: 35px;
+}
+.banner_text .text_text {
+	font-size: 22px;
+}
+.btn-primary {
+	font-size: 24px;
+	margin-top: 20px;
+}
+.btn-primary:hover{
+	transform: scale(1.1);
+}
+/* ===modal hire me === */
+.modal-header .btn-close {
+	top: 5px;
+	right: 11px;
+	font-size: 22px;
+}
+.modal-header .btn-close:hover{
+	border-radius: 7px;
+	font-size: 15px;
+}
+.modal-header h2 {
+	font-size: 25px;
+}
+.input_box span {
+	font-size: 20px;
+}
+.modal_btn {
+	font-size: 20px;
+}
+/* ===banner end === */
+/* ===about start  === */
+.about_img{
+  text-align: center;
+}
+.about_img img {
+	width: 60%;
+}
+.about_text {
+	margin-top: 30px;
+}
+.about_text h2 {
+	font-size: 44px;
+	margin-bottom: 16px;
+}
+.about_text p {
+	font-size: 25px;
+}
+.about_text span {
+	font-size: 18px;
+}
+/* ===modal learn more === */
+.btn-info {
+	margin: 35px 0;
+	padding: 10px 25px;
+	font-size: 16px;
+	display:block;
+}
+.btn-info:hover{
+	padding: 10px 35px;
+}
+.modal_main {
+	width: 714px;
+	position: absolute;
+	top: 0px;
+	left: -55px;
+}
+.informiton p span, .informiton p a {
+	font-size: 18px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===about end  === */
+/* ===portfolio start === */
+.portfolio {
+	padding: 18px 0px;
+}
+.blog_head h2 {
+	font-size: 30px;
+}
+.mix_btn {
+	margin-top: -90px;
+}
+.mix_btn button {
+	font-size: 20px;
+}
+.mix_main {
+	margin-top: -35px;
+}
+.mixt_item {
+	width: 48%;
+}
+.mix_text h3 {
+	font-size: 15px;
+}
+.mix_overley a i {
+	top: 38%;
+	font-size: 35px;
+}
+.vbox-close-icon {
+	top: 31px;
+	right: 15px;
+}
+/* ===portfolio end === */
+/* ===service start === */
+.my_services h2 {
+	font-size: 40px;
+}
+.my_services p {
+	font-size: 18px;
+}
+.svg_img {
+	width: 37px;
+	top: 49px;
+	left: -1px;
+}
+.services_right h2 {
+	font-size: 24px;
+}
+.services_right h4 {
+	font-size: 20px;
+}
+.services_right h4 span {
+	font-size: 26px;
+}
+.services_right p {
+	font-size: 13px;
+}
+.knock h2 {
+	font-size: 35px;
+}
+.knock a {
+	padding: 10px 20px;
+	font-size: 21px;
+}
+/* ===service end === */
+/* ===blog start === */
+
+.blog_head h2 {
+	font-size: 50px;
+}
+.blog_text {
+	margin-top: 0px;
+}
+.blog_text h5 {
+	font-size: 22px;
+}
+.blog_text h2 {
+	font-size: 24px;
+}
+.blog_btn {
+	margin-top: 10px;
+}
+.blog_btn a {
+	padding: 10px 25px;
+	font-size: 10px;
+	margin-top: 52px;
+}
+/* ===blog end === */
+/* ===contact start === */
+.contact_text p {
+	font-size: 20px;
+	width: 397px;
+	margin-top: -65px;
+}
+.contact_text a span {
+	font-size: 18px;
+}
+.contact_text a h2 {
+	font-size: 22px;
+}
+.contact_text a i {
+	font-size: 22px;
+	top: 15px;
+	left: -35px;
+}
+.contact_img img {
+	height: 75%;
+	width: 55%;
+}
+.input_group input, textarea {
+	padding: 7px;
+}
+.contact_box {
+	margin-top: 43px;
+	margin-left: 50px;
+}
+form button {
+	font-size: 16px;
+}
+/* ===contact end === */
+/* ===footer start=== */
+.footer_item p {
+	font-size: 20px;
+}
+.footer_item h3 {
+	font-size: 25px;
+}
+/* ===footer end=== */
+/* ===backtop start== */
+.backtop i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+/* ===backtop end  == */
+
+}
+
+
+/* ========= ================== */
+@media(min-width:992px) and (max-width:1199.98px){
+	.navbar-brand img {
+		width: 85%;
+	}
+	.menu_bar ul li a {
+		font-size: 16px;
+		margin: 0 5px;
+	}
+	.menu_bar ul li a::after {
+		height: 27px;
+	}
+	/* === banner=== */
+	.btn-primary {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	/* ===about == */
+	.about_text {
+		margin-top: 70px;
+	}
+/* =====about modal ==== */
+.btn-info {
+	margin: 35px 0;
+	padding: 10px 25px;
+	font-size: 16px;
+}
+.btn-info:hover{
+	padding: 10px 35px;
+}
+.modal_main {
+	width: 714px;
+	position: absolute;
+	top: 0px;
+	left: -55px;
+}
+.modal-header .btn-close {
+	top: 3px;
+	right: 8px;
+}
+.informiton p span, .informiton p a {
+	font-size: 18px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===portfolio  == */
+.mix_btn {
+	margin-top: -50px;
+}
+.svg_img {
+	width: 46px;
+	top: 55px;
+	left: -4px;
+}
+.mix_text h3 {
+	font-size: 16px;
+}
+.vbox-close-icon {
+	right: 137px;
+}
+/* ==service == */
+.knock h2 {
+	font-size: 40px;
+}
+/* ==blog == */
+.blog_btn a {
+	font-size: 19px;
+}
+.blog_text {
+	margin-top: 5px;
+}
+/* =====contact ==== */
+.contact_img img {
+	width: 63%;
+}
+.contact_box{
+	margin-top: 124px;
+}
+/* --footer --- */
+.footer_item  h3{
+	font-size: 27px;
+}
+}
+/* ==================max 1199 end ================== */
+@media(min-width:1200px) and (max-width:1399.98px){
+	.navbar-brand img {
+		width: 85%;
+	}
+	.menu_bar ul li a {
+		font-size: 20px;
+		margin: 0 5px;
+	}
+	.menu_bar ul li a::after {
+		height: 33px;
+	}
+	/* === banner=== */
+	.btn-primary {
+		font-size: 24px;
+		margin-top: 20px;
+	}
+	/* ===about == */
+	.about_text {
+		margin-top: 130px;
+	}
+/* =====about modal ==== */
+.btn-info {
+	margin: 35px 0;
+	padding: 10px 25px;
+	font-size: 16px;
+}
+.btn-info:hover{
+	padding: 10px 35px;
+}
+.modal_main {
+	width: 714px;
+	position: absolute;
+	top: 0px;
+	left: -55px;
+}
+.modal-header .btn-close {
+	top: 3px;
+	right: 8px;
+}
+.informiton p span, .informiton p a {
+	font-size: 18px;
+}
+.download_btn a {
+	padding: 4px 12px;
+}
+.download_btn a:hover{
+	transform: scale(1.0);
+	color: #000;
+}
+/* ===portfolio  == */
+.mix_btn {
+	margin-top: -50px;
+}
+.svg_img {
+	width: 46px;
+	top: 55px;
+	left: -4px;
+}
+.mix_text h3 {
+	font-size: 16px;
+}
+.vbox-close-icon {
+	right: 137px;
+}
+/* ==service == */
+.knock h2 {
+	font-size: 40px;
+}
+/* ==blog == */
+.blog_btn a {
+	font-size: 19px;
+}
+.blog_text {
+	margin-top: 5px;
+}
+/* =====contact ==== */
+.contact_img img {
+	width: 63%;
+}
+.contact_box {
+    margin-top: 121px;
+}
+/* --footer --- */
+.footer_item  h3{
+	font-size: 27px;
+}
+}
+/* ===================max 1399 ======================= */

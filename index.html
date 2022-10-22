@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my protfolio</title>
+  <link rel="icon" href="images/name.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+  <link rel="stylesheet" href="css/venobox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responcive.css">
+</head>
+<body  data-bs-spy="scroll" data-bs-target=".example">
+  <!-- ==navbar part start == -->
+  <nav class="navbar navbar-expand-lg navbar-light menu_bar example">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="images/name.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home"> <i class="fa-solid fa-house"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About"> <i class="fa-solid fa-user"></i>About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio"> <i class="fa-sharp fa-solid fa-bag-shopping"></i>portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services"> <i class="fa-solid fa-bars"></i>Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Blog"><i class="fa-brands fa-blogger-b"></i>Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact"> <i class="fa-solid fa-envelope"></i>Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <!-- ==navbar part end == -->
+  <!-- ==banner part start == -->
+
+  <section class="banner" id="Home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="banner_text">
+            <h2>Hello, my name is </h2>
+            <h1>Sohrab <span>Hossain</span></h1>
+            <p>I'm a Web <span class="auto_type"></span></p>
+           <div class="col-lg-6"> <span class="text_text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus repellat illum dolor corporis quo, quam autem natus ad voluptatem.</span></div>
+
+            
+        <!-- Button trigger modal -->
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Hire Me
+              </button>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- === Button trigger moda=== -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Hire Me</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="hire_from">
+          <form action="">
+          <div class="input_box">
+            <input type="text" required="required">
+            <span>Enter Your Name</span>
+            <i></i>
+          </div>
+          <div class="input_box">
+            <input type="email" required="required">
+            <span>Enter Your Email</span>
+            <i></i>
+          </div>
+          <div class="input_box">
+            <input type="text" required="required">
+            <span> Your Website / Company</span>
+            <i></i>
+          </div>
+          <div class="input_box">
+            <input type="text" required="required">
+            <span> Contact No</span>
+            <i></i>
+          </div>
+          <input type="submit" name="" id="" value="Submit" class="modal_btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==banner part end == -->
+  <!-- ===about part start === -->
+  <section class="about" id="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about_img">
+            <img src="images/about_me.jpg" alt="about" >
+          </div>
+        </div>
+        <div class="col-lg-6"> 
+          <div class="about_text text-center">
+            <h2>About Me</h2>
+            <p> Desinger <span class="developer">& Developer</span> </p>
+            <span>I am a front-end web deleloper. I can provide clean code and pixel perfect desing. I also make the website more & more interactive with web animations. I can provide clean code and plxel perfect desing. I also make the website more & more interactive with web animations .A responsive desing makes your website accessible to all users, regardless of their devic.</span>
+          
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info text-center" data-bs-toggle="modal" data-bs-target="#scroll-modal">
+             Learn More
+            </button>
+            <div class="modal" id="scroll-modal">
+              <div class="modal-dialog">
+                
+                <div class="modal-content modal_main">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal_main">
+                    <div class="modal_side_left col-lg-6">
+                      <div class="ruond_img">
+                        <img src="images/about_me.jpg" alt="about">
+                      </div>
+                      <div class="left_text">
+                        <h2 class="mt-3">Sohrab <span class="hossain">Hossain</span></h2>
+                        <h4>Creative <span class="auto_type2"></span></h4>
+                       <div class="informiton mt-5">
+                        <p class="name"><i class="fa-solid fa-user"></i><span> Sohrab Hossain</span></p>
+                        <p><i class="fa-solid fa-calendar-days"></i> <span>17/09/2002</span></p>
+                        <p><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/West+Shantibagh+Jame+Masjid/@23.7459681,90.4172715,21z/data=!4m5!3m4!1s0x3755b86470df8889:0x41ac2585bdda41b7!8m2!3d23.7459028!4d90.4172692" target="_blank">Malibag , Dhaka , Bangladesh</a></p>
+                        <p><i class="fa-solid fa-phone"></i><span>+8801648 - 315031</span></p>
+                        <p><i class="fa-solid fa-envelope"></i><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">sohrabhossain5031@gmail.com</a></p>
+                        <p><i class="fa-brands fa-facebook-f"></i><a href="https://www.facebook.com/sohrabkhan.khan.7127" target="_blank">Sohrab Hossain</a></p>
+                        <div class="download_btn">
+                          <a href="images/about_me.jpg " download="img"> Download CV</a>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="modal_side_right col-lg-6 d-none d-md-block">
+                      <div class="about_me">
+                        <h2>About <span>Me</span></h2>
+                        <p class="mb-4">Hello everybody! My name is Sohrab Hossain . I am a Web designer, and I'm very passionate and dedicated to my work. With 1 years experience as a professional  Web designer, I have acquired the skills and knowledge.</p>
+                        <h2>Quality <span>Services</span></h2>
+                        <p><i class="fa-sharp fa-solid fa-play"></i><span class="skills">Website Development</span></p>
+                        <p><i class="fa-sharp fa-solid fa-play"></i><span class="skills">Digital Experience</span></p>
+                        <p><i class="fa-sharp fa-solid fa-play"></i><span class="skills">Content Marketing</span></p>
+                        <p><i class="fa-sharp fa-solid fa-play"></i><span class="skills">Social Media Design</span></p>
+                        <p><i class="fa-sharp fa-solid fa-play"></i><span class="skills">Shared Web Hosting</span></p>
+<!-- ===== -->
+                        <h2>Programming  <span>Skills</span></h2>
+                        <div class="content">
+                          <p class="proges">jQuery</p>
+                          <div id="jq"></div>
+                          <p class="proges">HTML5</p>
+                          <div id="html"></div>
+                          <p class="proges">CSS/CSS3</p>
+                          <div id="css"></div>
+                          </div>
+                      </div>
+                    </div> 
+                  </div>                        
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ===about part end === -->
+  <!-- ===portfolio part start === -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div class="blog_head text-center">
+            <h2>My Portfolio</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-12 mt-5">
+          <div class="mix_btn text-center">
+            <button type="button" data-filter="all">All</button>
+            <button type="button" data-filter=".Vimeo">Vimeo</button>
+            <button type="button" data-filter=".Youtube">Youtube</button>
+            <button type="button" data-filter=".Soundcloud">Soundcloud</button>
+            <button type="button" data-filter=".Image">Image</button>
+            <button type="button" data-filter=".Detail">Detail</button>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="mix_main">
+
+              <div class="mix Vimeo mixt_item mt-5" data-order="1">
+                <img src="images/mix-1.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-1.jpg">
+                    <i class="fa-brands fa-vimeo-v"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>Vimeo</p>
+                  <h3>New Laptop</h3>
+                  </div>
+                </div>
+             </div>
+
+              <div class="mix Youtube mixt_item mt-5" data-order="2">
+                <img src="images/mix-2.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-2.jpg">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>YouTube</p>
+                  <h3>Best Phone</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mix Soundcloud mixt_item mt-5" data-order="3">
+                <img src="images/mix-3.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-3.jpg">
+                    <i class="fa-brands fa-soundcloud"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>Soundcloud</p>
+                  <h3>Smart Headphone</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mix Detail mixt_item mt-5" data-order="4">
+                <img src="images/mix-4.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-4.jpg">
+                    <i class="fa-solid fa-calendar-week"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>Detail</p>
+                  <h3>Hippie Sabotage</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mix Image mixt_item mt-5" data-order="4">
+                <img src="images/mix-5.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-5.jpg">
+                    <i class="fa-regular fa-image"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>Image</p>
+                  <h3>Mockup Camera</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mix Detail mixt_item mt-5" data-order="4">
+                <img src="images/mix-6.jpg" alt="">
+                <div class="mix_overley">
+                  <a class="my-link" href="images/mix-6.jpg">
+                    <i class="fa-solid fa-calendar-week"></i>
+                  </a>
+                  <div class="mix_text text-center">
+                    <p>Detail</p>
+                  <h3>Good Present</h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+</section>
+  <!-- ===portfolio part end === -->
+
+  <!-- === Services part start  === -->
+  <section class="services" id="services"> 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-5">
+          <div class="my_services mt-5">   
+            <h5>What I Do</h5> 
+            <h2>My <span>Services</span></h2>
+            <p class="mt-4">We offer high quality products for competitive prices. Our main goal is customer satisfaction, which we obtain through market orientation of ongoing service and support.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 col-md-6" data-tilt>
+          <div class="services_item">
+            <div class="services_left">
+  <svg  xmlns="http://www.w3.org/2000/svg" height="438pt" viewBox="0 -19 438.00146 438" width="438pt" class="svg replaced-svg svg_img"><path d="m89.804688 360c-22.089844 0-40-17.90625-40-40v-142.265625c-.003907-3.371094.421874-6.734375 1.261718-10h-1.261718c-22.089844 0-40 17.910156-40 40v142.265625c0 22.09375 17.910156 40 40 40h223.800781c18.242187 0 34.171875-12.339844 38.738281-30zm0 0" fill="#8b8d8f"></path><path d="m313.914062 276.632812v20.367188c-.015624 5.332031-1.328124 10.578125-3.828124 15.285156l118.113281 62.160156v-50.179687zm0 0" fill="#8b8d8f"></path><path d="m222.089844 143.3125c-39.574219 0-71.65625-32.082031-71.65625-71.65625s32.082031-71.65625 71.65625-71.65625c39.574218 0 71.65625 32.082031 71.65625 71.65625s-32.082032 71.65625-71.65625 71.65625zm0-123.3125c-28.527344 0-51.65625 23.128906-51.65625 51.65625 0 28.53125 23.128906 51.65625 51.65625 51.65625s51.65625-23.125 51.65625-51.65625c0-28.527344-23.128906-51.65625-51.65625-51.65625zm0 0" fill="#ea4343"></path><path d="m74.566406 124.3125c-29.078125 0-52.65625-23.574219-52.652344-52.65625 0-29.082031 23.574219-52.65625 52.65625-52.65625 29.082032 0 52.65625 23.574219 52.65625 52.65625s-23.578124 52.65625-52.660156 52.65625zm0-85.3125c-18.035156 0-32.65625 14.621094-32.652344 32.65625 0 18.035156 14.621094 32.65625 32.65625 32.65625 18.035157 0 32.65625-14.621094 32.65625-32.65625s-14.621093-32.65625-32.660156-32.65625zm0 0" fill="#ea4343"></path><path d="m433.191406 174.683594c-2.953125-1.800782-6.648437-1.859375-9.660156-.160156l-99.53125 54.765624v-21.554687c0-27.570313-22.820312-49.734375-50.390625-49.734375h-223.804687c-27.425782-.078125-49.726563 22.09375-49.804688 49.519531v142.480469c-.0625 27.554688 22.226562 49.941406 49.78125 50h223.824219c27.574219 0 50.394531-22.429688 50.394531-50v-21.535156l99.582031 54.746094c1.4375.808593 3.0625 1.234374 4.710938 1.234374 1.746093 0 3.457031-.484374 4.945312-1.394531 3.007813-1.816406 4.820313-5.09375 4.761719-8.605469v-191.15625c.039062-3.519531-1.792969-6.792968-4.808594-8.605468zm-159.582031 205.316406h-223.804687c-16.496094-.035156-29.839844-13.433594-29.804688-29.929688v-142.335937c-.050781-16.371094 13.179688-29.683594 29.546875-29.734375h.257813 223.800781c16.542969 0 30.394531 13.191406 30.394531 29.734375v142.265625c0 16.542969-13.851562 30-30.390625 30zm144.390625-22.449219-94-51.898437v-53.550782l94-51.917968zm0 0" fill="#ffffff"></path></svg>
+  <img class="mt-5" src="images/service-dark.png"alt="service">
+            </div>
+            <div class="services_right">
+            <h2>Video Production</h2>
+              <h4>Starts from <span>$49</span></h4>
+              <p class="mt-3">Aali is a leading web design agency with an award-winning design team that creates innovative, effective websites</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 col-md-6" data-tilt>
+          <div class="services_item">
+            <div class="services_left">
+  <svg  xmlns="http://www.w3.org/2000/svg" height="400pt" viewBox="0 -22 400 400" width="400pt" class="svg replaced-svg svg_img"><path d="m50 256.007812v-246.015624c-22.089844 0-40 17.910156-40 40v256.015624c0 22.089844 17.910156 40 40 40h300c22.089844 0 40-17.910156 40-40v-10h-300c-22.089844 0-40-17.910156-40-40zm0 0" fill="#8b8d8f"></path><g fill="#ea4343"><path d="m198.410156 99.574219c-17.421875 0-31.59375-14.398438-31.59375-32.105469s14.171875-32.105469 31.59375-32.105469c17.417969 0 31.589844 14.402344 31.589844 32.105469s-14.171875 32.105469-31.589844 32.105469zm0-44.210938c-6.6875-.292969-12.34375 4.890625-12.632812 11.578125-.292969 6.683594 4.890625 12.339844 11.574218 12.632813 6.6875.292969 12.34375-4.890625 12.636719-11.574219.007813-.175781.011719-.351562.011719-.527344.132812-6.542968-5.050781-11.957031-11.589844-12.109375zm0 0"></path><path d="m127.953125 99.574219c-17.417969 0-31.589844-14.398438-31.589844-32.105469s14.171875-32.105469 31.589844-32.105469 31.59375 14.398438 31.59375 32.105469-14.171875 32.105469-31.59375 32.105469zm0-44.210938c-6.683594-.292969-12.339844 4.890625-12.632813 11.578125-.289062 6.683594 4.894532 12.339844 11.578126 12.632813 6.6875.292969 12.34375-4.890625 12.636718-11.574219.007813-.175781.011719-.351562.011719-.527344.132813-6.542968-5.050781-11.957031-11.59375-12.109375zm0 0"></path><path d="m61.816406 99.574219c-17.417968 0-31.589844-14.398438-31.589844-32.105469s14.171876-32.105469 31.589844-32.105469c17.421875 0 31.59375 14.398438 31.59375 32.105469s-14.171875 32.105469-31.59375 32.105469zm0-44.210938c-6.683594-.289062-12.339844 4.894531-12.628906 11.578125-.292969 6.6875 4.890625 12.339844 11.578125 12.632813 6.683594.292969 12.339844-4.890625 12.632813-11.574219.007812-.175781.011718-.351562.011718-.527344.136719-6.542968-5.050781-11.960937-11.59375-12.109375zm0 0"></path></g><path d="m400 50c0-27.613281-22.386719-50-50-50h-300c-27.613281 0-50 22.386719-50 50v256c0 27.613281 22.386719 50 50 50h300c27.613281 0 50-22.386719 50-50zm-350-30h300c16.558594.015625 29.980469 13.433594 30 29.992188v74.007812h-360v-74.007812c.019531-16.558594 13.441406-29.976563 30-29.992188zm300 316h-300c-16.558594-.015625-29.980469-13.433594-30-29.992188v-162.007812h360v162.007812c-.019531 16.558594-13.441406 29.976563-30 29.992188zm0 0" fill="#ffffff"></path></svg>
+  <img class="mt-5" src="images/service-dark.png"alt="service">
+            </div>
+            <div class="services_right">
+            <h2>Brand Identity</h2>
+              <h4>Starts from <span>$59</span></h4>
+              <p class="mt-3">Aali is a leading web design agency with an award-winning design team that creates innovative, effective websites</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 col-md-6" data-tilt>
+          <div class="services_item">
+            <div class="services_left">
+              <svg xmlns="http://www.w3.org/2000/svg" height="433pt" viewBox="0 0 433.82486 433" width="433pt" class="svg replaced-svg svg_img"><path d="m356.199219 187.3125c-5.515625.015625-9.984375 4.484375-10 10v186.902344c-.046875 16.546875-13.449219 29.949218-30 30h-266.199219c-16.546875-.050782-29.953125-13.453125-30-30v-266.203125c.046875-16.546875 13.453125-29.949219 30-30h186.898438c5.523437 0 10-4.476563 10-10 0-5.523438-4.476563-10-10-10h-186.898438c-27.609375.011719-49.9882812 22.390625-50 50v266.203125c.0117188 27.609375 22.390625 49.988281 50 50h266.199219c27.609375-.011719 49.992187-22.390625 50-50v-186.902344c-.015625-5.515625-4.484375-9.984375-10-10zm0 0" fill="#ffffff"></path><path d="m379.800781 3.3125c-1.882812-1.882812-4.441406-2.925781-7.101562-2.898438-2.652344.019532-5.191407 1.054688-7.097657 2.898438l-143.203124 143.199219-.398438.402343-.199219.199219c-.199219.300781-.5.601563-.699219.898438 0 .101562-.101562.101562-.101562.203125-.199219.296875-.300781.5-.5.796875-.101562.101562-.101562.203125-.199219.300781-.101562.300781-.199219.5-.300781.800781 0 .101563-.101562.101563-.101562.199219l-25.5 76.902344c-1.222657 3.578125-.292969 7.542968 2.402343 10.199218 1.890625 1.863282 4.441407 2.90625 7.097657 2.898438 1.085937-.019531 2.164062-.1875 3.203124-.5l76.699219-25.597656c.097657 0 .097657 0 .199219-.101563.316406-.089843.621094-.226562.898438-.398437.078124-.011719.148437-.046875.203124-.101563.296876-.199219.699219-.398437 1-.601562.296876-.199219.597657-.5.898438-.699219.101562-.097656.199219-.097656.199219-.199219.101562-.101562.300781-.199219.402343-.398437l143.296876-143.300782c1.875-1.871093 2.925781-4.40625 2.925781-7.050781s-1.050781-5.183593-2.925781-7.050781zm-160.101562 211.199219 14.101562-42.398438 28.300781 28.300781zm60.902343-23.898438-37-37 129.097657-129.101562 37 37zm0 0" fill="#ea4343"></path></svg>
+  <img class="mt-5" src="images/service-dark.png"alt="service">
+            </div>
+            <div class="services_right">
+            <h2>Creative Writing</h2>
+              <h4>Starts from <span>$69</span></h4>
+              <p class="mt-3">Aali is a leading web design agency with an award-winning design team that creates innovative, effective websites</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-5 col-md-6" data-tilt>
+          <div class="services_item">
+            <div class="services_left">
+<svg xmlns="http://www.w3.org/2000/svg" height="467pt" viewBox="-22 0 467 467.1" width="467pt" class="svg replaced-svg svg_img"><g fill="#8b8d8f"><path d="m123.652344 125.699219c0-52.851563 42.84375-95.699219 95.699218-95.699219 3.097657 0 6.097657.199219 9.097657.398438-32.085938-25.167969-76.597657-27.246094-110.886719-5.171876-34.292969 22.074219-50.832031 63.449219-41.207031 103.078126 9.625 39.628906 43.300781 68.808593 83.894531 72.695312-23.109375-18.152344-36.605469-45.914062-36.597656-75.300781zm0 0"></path><path d="m219.25 265.199219c11.292969-.007813 22.554688 1.164062 33.601562 3.5-25.121093-15.5-54.085937-23.640625-83.601562-23.5-88.097656.199219-159.398438 70.5-159.199219 166.199219l51-.097657c9.101563-85.300781 76.398438-145.902343 158.199219-146.101562zm0 0"></path><path d="m381.949219 410.601562c0-15.300781 12.402343-27.703124 27.703125-27.703124h.097656c-6.648438-11.699219-20.742188-16.929688-33.414062-12.398438-12.671876 4.527344-20.257813 17.503906-17.988282 30.769531 2.273438 13.261719 13.746094 22.976563 27.203125 23.03125-2.332031-4.191406-3.570312-8.902343-3.601562-13.699219zm0 0"></path><path d="m247.351562 443.398438c.015626-15.289063 12.40625-27.683594 27.699219-27.699219h.101563c-6.652344-11.699219-20.746094-16.929688-33.417969-12.402344-12.671875 4.53125-20.257813 17.507813-17.984375 30.773437 2.269531 13.261719 13.742188 22.976563 27.199219 23.03125-2.363281-4.179687-3.605469-8.898437-3.597657-13.703124zm0 0"></path></g><path d="m169.351562 211.398438c58.375 0 105.699219-47.320313 105.699219-105.699219 0-58.375-47.324219-105.699219-105.699219-105.699219-58.378906 0-105.699218 47.324219-105.699218 105.699219.054687 58.355469 47.34375 105.644531 105.699218 105.699219zm0-191.398438c47.328126 0 85.699219 38.371094 85.699219 85.699219 0 47.332031-38.371093 85.699219-85.699219 85.699219-47.332031 0-85.699218-38.367188-85.699218-85.699219.054687-47.308594 38.390625-85.644531 85.699218-85.699219zm0 0" fill="#ffffff"></path><path d="m285.652344 281.5.199218.199219zm0 0" fill="#ffffff"></path><path d="m385.652344 358.898438c-20.824219 0-37.703125 16.878906-37.703125 37.703124 0 20.820313 16.878906 37.699219 37.703125 37.699219 20.820312 0 37.699218-16.878906 37.699218-37.699219-.015624-20.816406-16.886718-37.6875-37.699218-37.703124zm0 55.402343c-9.777344 0-17.703125-7.925781-17.703125-17.699219 0-9.777343 7.925781-17.703124 17.703125-17.703124 9.773437 0 17.699218 7.925781 17.699218 17.703124.007813 4.695313-1.855468 9.203126-5.175781 12.523438-3.320312 3.320312-7.828125 5.183594-12.523437 5.175781zm0 0" fill="#ffffff"></path><path d="m251.050781 391.699219c-9.042969 0-17.777343 3.269531-24.601562 9.199219l-206.097657.5c2.097657-39.296876 17.398438-75.199219 43.398438-101.898438 27.699219-28.5 65.199219-44.199219 105.5-44.199219h.300781c38.101563-.1875 74.785157 14.441407 102.300781 40.800781.199219.199219.398438.296876.597657.5l-.597657-.601562.699219.601562.199219.199219 7.601562-9.5 5.398438-5.699219-.097656-.101562c-31.101563-29.898438-72.300782-46.300781-116.101563-46.300781h-.398437c-45.800782.101562-88.300782 17.902343-119.800782 50.300781-31.902343 32.699219-49.4023432 77.398438-49.3007808 125.898438.0195313 2.652343 1.0585938 5.195312 2.8984378 7.101562 1.882812 1.882812 4.441406 2.925781 7.101562 2.898438l204.300781-.5c-.636718 2.792968-.96875 5.640624-1 8.5 0 20.824218 16.878907 37.703124 37.699219 37.703124 20.820313 0 37.699219-16.878906 37.699219-37.703124.015625-.800782-.015625-1.601563-.097656-2.398438-1.25-19.847656-17.714844-35.308594-37.601563-35.300781zm0 55.402343c-6.980469-.003906-13.304687-4.105468-16.15625-10.476562-2.851562-6.371094-1.691406-13.820312 2.957031-19.023438 3.382813-3.722656 8.167969-5.859374 13.199219-5.902343 9.335938.003906 17.050781 7.28125 17.601563 16.601562v1.097657c.027344 4.6875-1.8125 9.191406-5.117188 12.515624-3.304687 3.324219-7.796875 5.191407-12.484375 5.1875zm0 0" fill="#ffffff"></path><path d="m410.949219 235.300781c-7.777344-6.484375-18.058594-9.128906-28-7.199219l-86.5 14.898438h-.199219c-15.964844 3.136719-27.484375 17.128906-27.5 33.398438v151.203124c0 5.519532 4.476562 10 10 10s10-4.480468 10-10v-151.203124c-.015625-6.652344 4.675781-12.390626 11.199219-13.699219l86.5-14.898438h.203125c4.101562-.773437 8.339844.285157 11.597656 2.898438 3.214844 2.667969 5.082031 6.625 5.101562 10.800781v133.300781c0 5.523438 4.476563 10 10 10 5.523438 0 10-4.476562 10-10v-133.300781c.019532-10.152344-4.535156-19.777344-12.402343-26.199219zm0 0" fill="#ea4343"></path></svg>
+  <img class="mt-5" src="images/service-dark.png"alt="service">
+            </div>
+            <div class="services_right">
+            <h2>Digital Marketing</h2>
+              <h4>Starts from <span>$79</span></h4>
+              <p class="mt-3">Aali is a leading web design agency with an award-winning design team that creates innovative, effective websites</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="knock">
+            <h2>Do You Want Something Different?</h2>
+            <a href="#Contact">Knock Me <i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===Services part end === -->
+  <!-- ===Blog part start === -->
+  <section class="blog"id="Blog">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div class="blog_head text-center">
+            <h2>From My Blog</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <div class="blog_img">
+                <img class="w-100" src="images/blog1.jpg" alt="blog">
+              </div>
+            </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="blog_text">
+              <h5>Web Design</h5>
+              <h2>How to create simple personal website</h2>
+              <p class="mt-3">November 10, 2021</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="blog_btn">
+              <a href="#"> Full Story</a>
+            </div>
+          </div>
+          </div>
+          <div class="row mt-5 mb-5">
+            <div class="col-lg-4 col-md-4">
+              <div class="blog_img">
+                <img class="w-100" src="images/bolg2.jpg" alt="blog">
+              </div>
+            </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="blog_text">
+              <h5>Development</h5>
+              <h2>How to create simple personal website</h2>
+              <p class="mt-3">November 10, 2022</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="blog_btn">
+              <a href="#"> Full Story</a>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <div class="blog_img">
+                <img class="w-100" src="images/blog1.jpg" alt="blog">
+              </div>
+            </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="blog_text">
+              <h5>Web Design</h5>
+              <h2>What is mobile app and web design</h2>
+              <p class="mt-3">November 10, 2021</p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <div class="blog_btn">
+              <a href="#"> Full Story</a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ===Blog part end === -->
+  <!-- ===contact part start === -->
+  <section class="contact" id="Contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 mb-5">
+          <div class="blog_head text-center">
+            <h2>Connect with Me with Confidence</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-6">
+          <div class="contact_text">
+            <p class="mb-4">Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
+            <a href="#" class="mb-5 ml-3"><i class="fa-solid fa-phone-volume"></i>
+            <span class="mb-2">Call me</span>
+            <h2>+8801648 - 315031</h2>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="ml-3" target="_blank"><i class="fa-solid fa-envelope"></i></i>
+            <span class="mb-2">Email</span>
+            <h2>sohrabhossain5031@gmail.com</h2>
+            </a>
+          </div>
+          <div class="contact_img mt-5">
+            <img src="images/testimonial.jpeg" alt="contact">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="contact_box">
+            <form action="" class="from" name="submit-to-google-sheet">
+
+              <div class="input_group">
+                <input type="text" name="Name" required>
+                <span for="name"> <i class="fa-solid fa-user"></i> Your Name</span>
+              </div>
+              <div class="input_group">
+                <input type="email" name="Email" required>
+                <span for="name"> <i class="fa-solid fa-envelope"></i>Your Email</span>
+              </div>
+              <div class="input_group">
+                <input type="text" name="Phone" required>
+                <span for="name"> <i class="fa-solid fa-phone"></i> Your Phone</span>
+              </div>
+              <div class="input_group">
+               <textarea name="Message" rows="6" required></textarea>
+               <span for="Message"><i class="fa-sharp fa-solid fa-comment"></i> Your Message hear</span>
+              </div>
+              <button type="submit">Submit Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===contact part end === -->
+  <!-- ===footer part start === -->
+<footer>
+<div class="container">
+  <div class="row justify-content-center">
+  <div class="col-lg-6">
+    <div class="footer_item text-center">
+      <p>Other's Contact</p>
+      <p><i class="fa-solid fa-arrow-down"></i></p>
+      <div class="icon_img">
+        <a href="https://www.facebook.com/sohrabkhan.khan.7127" target="_blank"><img src="images/facebook.png" alt="facbook"></a>
+        <a href=""><img src="images/instagram.png" alt="instagram"></a>
+        <a href=""><img src="images/twitter.png" alt="twitter"></a>
+      </div>
+      <h3 class="mt-4"> coppy Right with :❤ Sohrab Hossain</h3>
+
+    </div>
+
+  </div>
+  </div>
+</div>
+</footer>
+  <!-- ===footer part end === -->
+<!-- ===back to top icon === -->
+<div class="backtop">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+<!-- ===back to top icon end=== -->
+
+  <script src="js/jquery-1.12.4.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="js/jquery.lineProgressbar.js"></script>
+  <script src="js/vanilla-tilt.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
